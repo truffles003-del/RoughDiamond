@@ -1,0 +1,19 @@
+# pay.sh catalog index
+version = "1"
+base_url = "https://haveblues.pay.sh"
+generated_at = "2026-06-28T06:27:13.575519+00:00"
+provider_count = 1
+
+[[providers]]
+fqn = "local/haveblues"
+title = "HaveBlues AI Services"
+description = "Python code generation, web scraping, and cited research reports"
+category = "ai_ml"
+service_url = "https://haveblues.pay.sh"
+endpoint_count = 4
+has_metering = true
+has_free_tier = false
+min_price_usd = 0.0
+max_price_usd = 0.15
+sha = ""
+use_case = "Python code generation, web scraping, and cited research reports"
