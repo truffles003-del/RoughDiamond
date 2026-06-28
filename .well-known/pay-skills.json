@@ -1,0 +1,63 @@
+{
+  "base_url": "https://haveblues.pay.sh",
+  "generated_at": "2026-06-28T06:27:13.575519+00:00",
+  "provider_count": 1,
+  "providers": [
+    {
+      "category": "ai_ml",
+      "description": "Python code generation, web scraping, and cited research reports",
+      "endpoint_count": 4,
+      "endpoints": [
+        {
+          "description": "Generate production-ready Python 3.9 code from a natural-language\nspec. Returns solution.py + test_solution.py + README.md.\n",
+          "full_path": "https://haveblues.pay.sh/v1/code",
+          "method": "POST",
+          "path": "v1/code",
+          "pricing": {
+            "usd": 0.05
+          },
+          "resource": null
+        },
+        {
+          "description": "Scrape a public URL and return structured JSON.\nStdlib + requests + beautifulsoup4. Rate-limited.\n",
+          "full_path": "https://haveblues.pay.sh/v1/scrape",
+          "method": "POST",
+          "path": "v1/scrape",
+          "pricing": {
+            "usd": 0.03
+          },
+          "resource": null
+        },
+        {
+          "description": "Generate a markdown research report with cited sources.\n~1500 words default, configurable.\n",
+          "full_path": "https://haveblues.pay.sh/v1/research",
+          "method": "POST",
+          "path": "v1/research",
+          "pricing": {
+            "usd": 0.15
+          },
+          "resource": null
+        },
+        {
+          "description": "Health check, always free",
+          "full_path": "https://haveblues.pay.sh/health",
+          "method": "GET",
+          "path": "health",
+          "pricing": {
+            "usd": 0.0
+          },
+          "resource": null
+        }
+      ],
+      "fqn": "local/haveblues",
+      "has_free_tier": false,
+      "has_metering": true,
+      "max_price_usd": 0.15,
+      "min_price_usd": 0.0,
+      "service_url": "https://haveblues.pay.sh",
+      "sha": "",
+      "title": "HaveBlues AI Services"
+    }
+  ],
+  "schema_version": "1"
+}
